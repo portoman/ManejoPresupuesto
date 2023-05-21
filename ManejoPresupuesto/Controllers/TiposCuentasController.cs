@@ -123,6 +123,9 @@ namespace ManejoPresupuesto.Controllers
             return Json(true);
         }
 
-
+        public async Task<IActionResult> Ordenar([FromBody] int[] ids)
+        {
+            return Ok();
+        }
     }
 }
